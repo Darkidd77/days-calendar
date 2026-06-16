@@ -19,31 +19,54 @@ const months = [
   "November",
   "December",
 ];
+let currentMonth;
+let currentYear;
 function renderCalendar(month, year) {
   const calendar = document.querySelector("#calendar");
   const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const firstDay = new Date(year, month, 1);
-  console.log(firstDay);
-console.log(firstDay.getDay());
-  const daysInMonth =
-  new Date(year, month + 1, 0).getDate();
-  console.log(daysInMonth);
-
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
 
   calendar.innerHTML = `<h2>${months[month]} ${year}</h2>`;
   const headerRow = document.createElement("div");
+  headerRow.style.display = "grid";
+  headerRow.style.gridTemplateColumns = "repeat(7, 1fr)";
+  headerRow.style.marginBottom = "10px";
   weekDays.forEach((day) => {
     const dayCell = document.createElement("span");
     dayCell.textContent = day;
-    dayCell.style.marginRight = "18px";
+    dayCell.style.textAlign = "center";
+    dayCell.style.fontWeight = "bold";
     headerRow.appendChild(dayCell);
   });
   calendar.appendChild(headerRow);
+  const grid = document.createElement("div");
+  grid.style.display = "grid";
+  grid.style.gridTemplateColumns = "repeat(7, 1fr)";
+  grid.style.gap = "4px";
+
+  calendar.appendChild(grid);
+  for (let i = 0; i < firstDay.getDay(); i++) {
+    const emptyCell = document.createElement("div");
+    emptyCell.textContent = "";
+    grid.appendChild(emptyCell);
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const dayCell = document.createElement("div");
+    dayCell.textContent = day;
+    dayCell.style.border = "1px solid black";
+    dayCell.style.minHeight = "50px";
+    dayCell.style.padding = "4px";
+    grid.appendChild(dayCell);
+  }
 }
 
 window.onload = () => {
   const monthSelect = document.querySelector("#month-select");
   const yearSelect = document.querySelector("#year-select");
+  const previousButton = document.querySelector("#previous");
+  const nextButton = document.querySelector("#next");
 
   months.forEach((month, index) => {
     const option = document.createElement("option");
@@ -60,7 +83,31 @@ window.onload = () => {
   }
 
   const today = new Date();
-  renderCalendar(today.getMonth(), today.getFullYear());
-  monthSelect.value = today.getMonth();
-  yearSelect.value = today.getFullYear();
+  currentMonth = today.getMonth();
+  currentYear = today.getFullYear();
+  monthSelect.value = currentMonth;
+  yearSelect.value = currentYear;
+  renderCalendar(currentMonth, currentYear);
+
+  previousButton.addEventListener("click", () => {
+    currentMonth--;
+    if (currentMonth < 0) {
+      currentMonth = 11;
+      currentYear--;
+    }
+    monthSelect.value = currentMonth;
+    yearSelect.value = currentYear;
+    renderCalendar(currentMonth, currentYear);
+  });
+
+  nextButton.addEventListener("click", () => {
+    currentMonth++;
+    if (currentMonth > 11) {
+      currentMonth = 0;
+      currentYear++;
+    }
+    monthSelect.value = currentMonth;
+    yearSelect.value = currentYear;
+    renderCalendar(currentMonth, currentYear);
+  });
 };
