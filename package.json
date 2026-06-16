@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "node --test",
-   "url": "git+https://github.com/Darkidd77/days-calendar.git"
+  
+    "start": "http-server ."
   },
   "keywords": [],
   "author": "",
@@ -14,11 +15,12 @@
   "homepage": "https://github.com/Darkidd77/days-calendar#readme",
   "devDependencies": {
     "http-server": "^14.1.1"
-  }
-} "start": "http-server ."
   },
+
   "description": "A dynamic, web-based calendar that calculates and displays annually occurring commemorative days that follow patterns (e.g., \"the second Tuesday of October\") rather than fixed dates.",
   "main": "index.js",
   "repository": {
-    "type": "module",
-    
+    "type": "git",
+     "url": "git+https://github.com/Darkidd77/days-calendar.git"
+    }
+  }
