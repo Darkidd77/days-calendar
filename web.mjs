@@ -5,8 +5,49 @@
 
 import { getGreeting } from "./common.mjs";
 import daysData from "./days.json" with { type: "json" };
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
-window.onload = function () {
-  document.querySelector("body").innerText =
-    `${getGreeting()} - there are ${daysData.length} known days`;
+window.onload = () => {
+  const monthSelect = document.querySelector("#month-select");
+
+  const yearSelect = document.querySelector("#year-select");
+
+  months.forEach((month, index) => {
+    const option = document.createElement("option");
+
+    option.value = index;
+    option.textContent = month;
+
+    monthSelect.appendChild(option);
+  });
+
+  for (let year = 1900; year <= 2100; year++) {
+    const option = document.createElement("option");
+
+    option.value = year;
+    option.textContent = year;
+
+    yearSelect.appendChild(option);
+  }
+
+  const today = new Date();
+
+  monthSelect.value = today.getMonth();
+
+  yearSelect.value = today.getFullYear();
+
+  console.log(daysData);
 };
