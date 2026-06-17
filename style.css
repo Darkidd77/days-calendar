@@ -1,0 +1,15 @@
+.calendar-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day-cell {
+  border: 1px solid black;
+  min-height: 40px;
+  padding: 7px;
+}
