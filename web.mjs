@@ -21,7 +21,7 @@ function renderCalendar(month, year) {
   const firstDay = new Date(Date.UTC(year, month, 1));
   const firstDayOfWeek = firstDay.getUTCDay();
   const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-  
+
   calendar.innerHTML = `<h2>${months[month]} ${year}</h2>`;
   const headerRow = document.createElement("div");
   headerRow.classList.add("calendar-header");
@@ -77,6 +77,15 @@ window.onload = () => {
   monthSelect.value = currentMonth;
   yearSelect.value = currentYear;
   renderCalendar(currentMonth, currentYear);
+  monthSelect.addEventListener('change', () => {
+  currentMonth = parseInt(monthSelect.value, 10);
+  renderCalendar(currentMonth, currentYear);
+});
+
+yearSelect.addEventListener('change', () => {
+  currentYear = parseInt(yearSelect.value, 10);
+  renderCalendar(currentMonth, currentYear);
+});
 
   previousButton.addEventListener("click", () => {
     currentMonth--;
