@@ -1,9 +1,3 @@
-// This is a placeholder file which shows how you can access functions and data defined in other files.
-// It can be loaded into index.html.
-// Note that when running locally, in order to open a web page which uses modules, you must serve the directory over HTTP e.g. with https://www.npmjs.com/package/http-server
-// You can't open the index.html file using a file:// URL.
-
-import { getGreeting } from "./common.mjs";
 import daysData from "./days.json" with { type: "json" };
 const months = [
   "January",
@@ -24,29 +18,26 @@ let currentYear;
 function renderCalendar(month, year) {
   const calendar = document.querySelector("#calendar");
   const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  const firstDay = new Date(year, month, 1);
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-
+  const firstDay = new Date(Date.UTC(year, month, 1));
+  const firstDayOfWeek = firstDay.getUTCDay();
+  const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+  
   calendar.innerHTML = `<h2>${months[month]} ${year}</h2>`;
   const headerRow = document.createElement("div");
-  headerRow.style.display = "grid";
-  headerRow.style.gridTemplateColumns = "repeat(7, 1fr)";
-  headerRow.style.marginBottom = "10px";
+  headerRow.classList.add("calendar-header");
   weekDays.forEach((day) => {
     const dayCell = document.createElement("span");
     dayCell.textContent = day;
-    dayCell.style.textAlign = "center";
-    dayCell.style.fontWeight = "bold";
+    dayCell.classList.add("weekday");
     headerRow.appendChild(dayCell);
   });
+
   calendar.appendChild(headerRow);
   const grid = document.createElement("div");
-  grid.style.display = "grid";
-  grid.style.gridTemplateColumns = "repeat(7, 1fr)";
-  grid.style.gap = "4px";
-
+  grid.classList.add("calendar-grid");
   calendar.appendChild(grid);
-  for (let i = 0; i < firstDay.getDay(); i++) {
+
+  for (let i = 0; i < firstDayOfWeek; i++) {
     const emptyCell = document.createElement("div");
     emptyCell.textContent = "";
     grid.appendChild(emptyCell);
@@ -55,9 +46,7 @@ function renderCalendar(month, year) {
   for (let day = 1; day <= daysInMonth; day++) {
     const dayCell = document.createElement("div");
     dayCell.textContent = day;
-    dayCell.style.border = "1px solid black";
-    dayCell.style.minHeight = "50px";
-    dayCell.style.padding = "4px";
+    dayCell.classList.add("day-cell");
     grid.appendChild(dayCell);
   }
 }
