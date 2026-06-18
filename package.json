@@ -1,26 +1,26 @@
 {
   "name": "project-days-calendar",
   "version": "1.0.0",
+  "description": "A dynamic, web-based calendar that calculates and displays annually occurring commemorative days that follow patterns (e.g., \"the second Tuesday of October\") rather than fixed dates.",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "node --test",
-  
-    "start": "http-server ."
+    "start": "http-server .",
+    "generate-ical": "node generate-ical.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkidd77/days-calendar.git"
+  },
   "bugs": {
     "url": "https://github.com/Darkidd77/days-calendar/issues"
   },
   "homepage": "https://github.com/Darkidd77/days-calendar#readme",
   "devDependencies": {
     "http-server": "^14.1.1"
-  },
-
-  "description": "A dynamic, web-based calendar that calculates and displays annually occurring commemorative days that follow patterns (e.g., \"the second Tuesday of October\") rather than fixed dates.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-     "url": "git+https://github.com/Darkidd77/days-calendar.git"
-    }
   }
+}
