@@ -1,0 +1,278 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20201013
+UID:Ada-Lovelace-Day-2020@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20211012
+UID:Ada-Lovelace-Day-2021@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20221011
+UID:Ada-Lovelace-Day-2022@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20231010
+UID:Ada-Lovelace-Day-2023@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20241008
+UID:Ada-Lovelace-Day-2024@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20251014
+UID:Ada-Lovelace-Day-2025@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20261013
+UID:Ada-Lovelace-Day-2026@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20271012
+UID:Ada-Lovelace-Day-2027@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20281010
+UID:Ada-Lovelace-Day-2028@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20291009
+UID:Ada-Lovelace-Day-2029@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ada Lovelace Day
+DTSTART;VALUE=DATE:20301008
+UID:Ada-Lovelace-Day-2030@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20200509
+UID:International-Binturong-Day-2020@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20210508
+UID:International-Binturong-Day-2021@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20220514
+UID:International-Binturong-Day-2022@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20230513
+UID:International-Binturong-Day-2023@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20240511
+UID:International-Binturong-Day-2024@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20250510
+UID:International-Binturong-Day-2025@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20260509
+UID:International-Binturong-Day-2026@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20270508
+UID:International-Binturong-Day-2027@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20280513
+UID:International-Binturong-Day-2028@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20290512
+UID:International-Binturong-Day-2029@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Binturong Day
+DTSTART;VALUE=DATE:20300511
+UID:International-Binturong-Day-2030@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20200905
+UID:International-Vulture-Awareness-Day-2020@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20210904
+UID:International-Vulture-Awareness-Day-2021@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20220903
+UID:International-Vulture-Awareness-Day-2022@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20230902
+UID:International-Vulture-Awareness-Day-2023@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20240907
+UID:International-Vulture-Awareness-Day-2024@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20250906
+UID:International-Vulture-Awareness-Day-2025@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20260905
+UID:International-Vulture-Awareness-Day-2026@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20270904
+UID:International-Vulture-Awareness-Day-2027@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20280902
+UID:International-Vulture-Awareness-Day-2028@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20290901
+UID:International-Vulture-Awareness-Day-2029@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Vulture Awareness Day
+DTSTART;VALUE=DATE:20300907
+UID:International-Vulture-Awareness-Day-2030@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20200919
+UID:International-Red-Panda-Day-2020@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20210918
+UID:International-Red-Panda-Day-2021@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20220917
+UID:International-Red-Panda-Day-2022@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20230916
+UID:International-Red-Panda-Day-2023@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20240921
+UID:International-Red-Panda-Day-2024@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20250920
+UID:International-Red-Panda-Day-2025@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20260919
+UID:International-Red-Panda-Day-2026@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20270918
+UID:International-Red-Panda-Day-2027@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20280916
+UID:International-Red-Panda-Day-2028@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20290915
+UID:International-Red-Panda-Day-2029@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:International Red Panda Day
+DTSTART;VALUE=DATE:20300921
+UID:International-Red-Panda-Day-2030@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20201030
+UID:World-Lemur-Day-2020@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20211029
+UID:World-Lemur-Day-2021@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20221028
+UID:World-Lemur-Day-2022@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20231027
+UID:World-Lemur-Day-2023@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20241025
+UID:World-Lemur-Day-2024@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20251031
+UID:World-Lemur-Day-2025@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20261030
+UID:World-Lemur-Day-2026@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20271029
+UID:World-Lemur-Day-2027@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20281027
+UID:World-Lemur-Day-2028@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20291026
+UID:World-Lemur-Day-2029@days-calendar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:World Lemur Day
+DTSTART;VALUE=DATE:20301025
+UID:World-Lemur-Day-2030@days-calendar
+END:VEVENT
+END:VCALENDAR
